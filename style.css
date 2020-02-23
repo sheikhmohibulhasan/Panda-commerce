@@ -12,7 +12,7 @@
     color: #FF136F;
 }
 .buy-now-button{
-    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    background-image: linear-gradient(to bottom, #FF589B 0%, rgb(190, 8, 78) 100%);
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -25,5 +25,54 @@
 .buy-now-button:hover{
     width: 200px;
     background: rgb(77, 53, 53);
-    transform: rotate(-35deg);
+    transform: translate(50px, 0px);
 }
+.categorie1{
+    background-image: linear-gradient(45deg, rgb(196, 164, 106),  orange);
+}
+.categorie2{
+    background-image: linear-gradient(45deg, orchid ,rgb(226, 55, 220));
+}
+.categorie3{
+    background-image: linear-gradient(45deg, rgb(60, 134, 196), rgb(40, 70, 168));
+}
+.categorie1, .categorie2, .categorie3{
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+.card{
+    border-radius: 8px;
+    border: none;
+    box-shadow: 5px 5px 10px gray;
+}
+.card-footer{
+    background-color: transparent;
+    border-top: none;
+}
+#contact{
+    height: 300px;
+    text-align: center;
+}
+#contact h6{
+    color: gray;
+}
+.form-control{
+    margin-bottom: 5%;
+}
+footer{
+    text-align: center;
+    color: indigo;
+}
+#footer-anchor{
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+
